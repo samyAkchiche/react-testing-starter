@@ -19,7 +19,7 @@ describe("TermsAndConditions", () => {
         expect(button).toBeDisabled();
     });
 
-    it("should enable the button when the checkbox os checked", async () => {
+    it("should enable the button when the checkbox is checked", async () => {
         render(<TermsAndConditions />);
 
         const checkbox = screen.getByRole("checkbox");
